@@ -38,6 +38,10 @@
 
 .site-footer__content-img {
   margin-bottom: 40px;
+
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 .site-footer__bottom {

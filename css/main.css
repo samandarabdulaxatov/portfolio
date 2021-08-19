@@ -723,7 +723,7 @@ template {
   margin-top: 45px;
 }
 
-.about-content::before {
+.about__content::before {
   content: "";
   display: block;
   width: 311px;
@@ -734,13 +734,13 @@ template {
   margin-bottom: 32px;
 }
 
-.about-content__list {
+.about__desc {
   width: 350px;
   border-bottom: 1px solid rgba(51, 50, 61, 0.15);
   padding-bottom: 51px;
 }
 
-.about-content__list-title {
+.about__title {
   font-family: "Ibarra Real Nova", "Arial", sans-serif;
   letter-spacing: -0.357143px;
   color: #33323D;
@@ -750,7 +750,7 @@ template {
   margin: 0;
 }
 
-.about-content__list-text {
+.about__text {
   margin: 0;
   font-family: "Public Sans", "Arial", sans-serif;
   font-weight: normal;
@@ -763,7 +763,7 @@ template {
   margin-top: 25px;
 }
 
-.about-content__list-link {
+.about__link {
   display: inline-block;
   font-family: "Public Sans", "Arial", sans-serif;
   font-weight: normal;
@@ -779,7 +779,7 @@ template {
   transition: all 0.5s ease;
 }
 
-.about-content__list-link:hover {
+.about__link:hover {
   background-color: #33323D;
   color: #FFFFFF;
   border: 1px solid transparent;
@@ -787,12 +787,12 @@ template {
 
 @media only screen and (min-width: 768px) {
   /* ABOUT */
-  .about-content {
+  .about__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .about-content::before {
+  .about__content::before {
     content: "";
     display: block;
     width: 281px;
@@ -802,18 +802,18 @@ template {
     background-image: url("../../img/picutre-tablet.png");
     margin-right: 96px;
   }
-  .about-content__list {
+  .about__desc {
     margin: 0;
     padding: 0;
     max-width: 339px;
   }
-  .about-content__list-title::before {
+  .about__title::before {
     margin-top: 0px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .about-content__list {
+  .about__desc {
     max-width: 545px;
     margin-left: auto;
     margin-right: auto;
@@ -827,7 +827,7 @@ template {
   margin-bottom: 80px;
 }
 
-.features-content__title {
+.features__title {
   font-family: "Ibarra Real Nova", "Arial", sans-serif;
   margin: 0;
   font-weight: bold;
@@ -840,7 +840,7 @@ template {
   margin-top: 65px;
 }
 
-.features-content__link {
+.features__link {
   font-family: "Public Sans", "Arial", sans-serif;
   text-decoration: none;
   font-weight: normal;
@@ -855,7 +855,7 @@ template {
   transition: all 0.5s ease;
 }
 
-.features-content__link:hover {
+.features__link:hover {
   background-color: #33323D;
   color: #FFFFFF;
   border: 1px solid transparent;
@@ -866,7 +866,7 @@ template {
   .features {
     padding: 0;
   }
-  .features-content {
+  .features__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -875,7 +875,7 @@ template {
             justify-content: space-between;
     margin-top: 115px;
   }
-  .features-content__title {
+  .features__title {
     padding: 0;
     margin: 0;
     max-width: 350px;
@@ -887,7 +887,7 @@ template {
     letter-spacing: -0.357143px;
     color: #33323D;
   }
-  .features-content__title::before {
+  .features__title::before {
     content: "";
     position: absolute;
     width: 113px;
@@ -898,7 +898,7 @@ template {
     top: calc(50%);
     padding: 0 24px;
   }
-  .features-content__link {
+  .features__link {
     height: 0;
     padding: 17px 34px 27px;
     margin-top: 17px;
@@ -909,10 +909,10 @@ template {
   .features {
     margin-top: 150px;
   }
-  .features-content__title::before {
+  .features__title::before {
     content: "";
     position: absolute;
-    width: 524px;
+    width: 430px;
     height: 1px;
     background-color: #33323D;
     opacity: 0.15;
@@ -962,6 +962,10 @@ template {
 
 .site-footer__content-img {
   margin-bottom: 40px;
+}
+
+.site-footer__content-img:hover {
+  opacity: 0.7;
 }
 
 .site-footer__bottom {

@@ -5,7 +5,7 @@
   margin-bottom: 80px;
 }
 
-.features-content__title {
+.features__title {
   font-family: $secondary-font;
   margin: 0;
   font-weight: bold;
@@ -18,7 +18,7 @@
   margin-top: 65px;
 }
 
-.features-content__link {
+.features__link {
   font-family: $main-font;
   text-decoration: none;
   font-weight: normal;
@@ -44,13 +44,13 @@
     padding: 0;
   }
 
-  .features-content {
+  .features__content {
     display: flex;
     justify-content: space-between;
     margin-top: 115px;
   }
 
-  .features-content__title {
+  .features__title {
     padding: 0;
     margin: 0;
     max-width: 350px;
@@ -75,7 +75,7 @@
     }
   }
 
-  .features-content__link {
+  .features__link {
     height: 0;
     padding: 17px 34px 27px;
     margin-top: 17px;
@@ -87,10 +87,10 @@
     margin-top: 150px;
   }
 
-  .features-content__title::before {
+  .features__title::before {
     content: "";
     position: absolute;
-    width: 524px;
+    width: 430px;
     height: 1px;
     background-color: $primary-color;
     opacity: 0.15;

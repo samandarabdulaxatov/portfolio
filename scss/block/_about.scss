@@ -3,7 +3,7 @@
   margin-top: 45px;
 }
 
-.about-content::before {
+.about__content::before {
   content: "";
   display: block;
   width: 311px;
@@ -14,13 +14,13 @@
   margin-bottom: 32px;
 }
 
-.about-content__list {
+.about__desc {
   width: 350px;
   border-bottom: 1px solid rgba(51, 50, 61, 0.15);
   padding-bottom: 51px;
 }
 
-.about-content__list-title {
+.about__title {
   font-family: $secondary-font;
   letter-spacing: -0.357143px;
   color: $primary-color;
@@ -30,7 +30,7 @@
   margin: 0;
 }
 
-.about-content__list-text {
+.about__text {
   margin: 0;
   font-family: $main-font;
   font-weight: normal;
@@ -43,7 +43,7 @@
   margin-top: 25px;
 }
 
-.about-content__list-link {
+.about__link {
   display: inline-block;
   font-family: $main-font;
   font-weight: normal;
@@ -66,7 +66,7 @@
 
 @media only screen and (min-width: 768px) {
   /* ABOUT */
-  .about-content {
+  .about__content {
     display: flex;
 
     &::before {
@@ -81,19 +81,19 @@
     }
   }
 
-  .about-content__list {
+  .about__desc {
     margin: 0;
     padding: 0;
     max-width: 339px;
   }
 
-  .about-content__list-title::before {
+  .about__title::before {
     margin-top: 0px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .about-content__list {
+  .about__desc{
     max-width: 545px;
     margin-left: auto;
     margin-right: auto;
